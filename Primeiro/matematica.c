@@ -8,5 +8,10 @@ int main(int argc, char const *argv[])
     scanf("%d", &a);
     printf("Digite o segundo valor: \n");
     scanf("%d", &b);
+
+    soma = a + b;
+    sub = a- b;
+    mult = a * b;
+    divi = a / b;
     return 0;
 }
