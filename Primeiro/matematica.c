@@ -3,10 +3,10 @@
 int main(int argc, char const *argv[])
 {
     /* code */
-    int num1 = 5;
-    int num2 = 6;
-    int soma = num1 + num2;
-
-    printf("O total de %d mais %d e igual a %d", num1, num2, soma);
+    int a, b, soma, sub, mult , divi;
+    printf("Digite o primeiro valor:\n");
+    scanf("%d", &a);
+    printf("Digite o segundo valor: \n");
+    scanf("%d", &b);
     return 0;
 }
