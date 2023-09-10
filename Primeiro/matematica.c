@@ -13,5 +13,12 @@ int main(int argc, char const *argv[])
     sub = a- b;
     mult = a * b;
     divi = a / b;
+
+
+    printf("resultados: \n");
+    printf("Soma: %d \n", soma);
+    printf("Subtração: %d \n", sub);
+    printf("Multiplicação: %d \n", mult);
+    printf("Divisão: %d \n", divi);
     return 0;
 }
