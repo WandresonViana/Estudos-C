@@ -17,8 +17,8 @@ int main(int argc, char const *argv[])
 
     printf("resultados: \n");
     printf("Soma: %d \n", soma);
-    printf("Subtração: %d \n", sub);
-    printf("Multiplicação: %d \n", mult);
-    printf("Divisão: %d \n", divi);
+    printf("Subtracao: %d \n", sub);
+    printf("Multiplicacao: %d \n", mult);
+    printf("Divisao: %d \n", divi);
     return 0;
 }
