@@ -3,6 +3,10 @@
 int main(int argc, char const *argv[])
 {
     int num;
-    char[10] menwsagem = "Maria";
+    char mensagem[10];
+    printf("Digite um numero: \n");
+    scanf("%d", &num);
+    printf("Digite uma mensagem: \n");
+    scanf("%s", &mensagem);
     return 0;
 }
