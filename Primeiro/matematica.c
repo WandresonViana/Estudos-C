@@ -20,5 +20,6 @@ int main(int argc, char const *argv[])
     printf("Subtracao: %d \n", sub);
     printf("Multiplicacao: %d \n", mult);
     printf("Divisao: %d \n", divi);
+    printf("Fim do programa!");
     return 0;
 }
