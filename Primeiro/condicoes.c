@@ -9,6 +9,8 @@ int main(int argc, char const *argv[])
     printf("Digite uma mensagem: \n");
     scanf("%s", &mensagem);
 
-    if(mensagem == "Maria" )
+    if(num == 1){
+        printf("Olá, Maria\n");
+    }
     return 0;
 }
