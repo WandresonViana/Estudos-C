@@ -8,5 +8,7 @@ int main(int argc, char const *argv[])
     scanf("%d", &num);
     printf("Digite uma mensagem: \n");
     scanf("%s", &mensagem);
+
+    if(mensagem == "Maria" )
     return 0;
 }
