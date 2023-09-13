@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     scanf("%d", &num);
    
 
-    if(num == 1){
+    if(num == 1 || num == 3){
         printf("Olá, Maria\n");
     }
     else{
