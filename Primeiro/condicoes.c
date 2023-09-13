@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main(int argc, char const *argv[])
 {
+    setlocale(LC_ALL, "Portuguese_Brasil");
     int num;
     char mensagem[10];
     printf("Digite um numero: \n");
