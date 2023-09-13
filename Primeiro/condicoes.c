@@ -14,5 +14,8 @@ int main(int argc, char const *argv[])
     if(num == 1){
         printf("Olá, Maria\n");
     }
+    else{
+        printf("Não é a Maria!\n");
+    }
     return 0;
 }
