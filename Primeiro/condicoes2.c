@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     printf("Digite a segunda nota: \n");
     scanf("%f", nota02);
 
-    resultado = (nota01 + nota02)/2;
+    //resultado = (nota01 + nota02)/2;
 
     if(resultado > 7){
         printf("Aluno aprovado!");
