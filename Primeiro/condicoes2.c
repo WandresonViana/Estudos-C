@@ -14,6 +14,8 @@ int main(int argc, char const *argv[])
 
     if(resultado > 7){
         printf("Aluno aprovado!");
+    }else{
+        printf("Reprovado!");
     }
 
     return 0;
