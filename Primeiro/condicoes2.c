@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
     //resultado = (nota01 + nota02)/2;
 
-    if(resultado > 7){
+    if(resultado > 7 && resultado < 8){
         printf("Aluno aprovado!");
     }else{
         printf("Reprovado!");
