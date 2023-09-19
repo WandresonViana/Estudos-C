@@ -7,7 +7,8 @@ int main(int argc, char const *argv[])
 
     while (i < 10)
     {
-        
+        printf("%d ", i);
+        i++;
     }
     
     return 0;
