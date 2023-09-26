@@ -11,6 +11,10 @@ int main(int argc, char const *argv[])
         printf("Maria ");
         i++;
     }
+
+    for(int i = 0; i < 5; i++){
+        printf("%d", i);
+    }
     
     return 0;
 }
