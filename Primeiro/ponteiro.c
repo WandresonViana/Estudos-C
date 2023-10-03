@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     int a = 6;
     int *p1 = NULL;
-    int *p2;
+    int *p2 = NULL;
     p1 = &a;
     p2 = p1;
     *p2 = 8;
