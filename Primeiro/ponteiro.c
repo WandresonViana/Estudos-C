@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     
 
     printf("%d \n", *p1);
-    printf("%d \n", *p2);
+    printf("%d \n\n", *p2);
     
     return 0;
 }
