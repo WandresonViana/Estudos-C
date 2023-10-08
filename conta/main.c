@@ -113,6 +113,7 @@ int main() {
 
             case 3:
                 //chamada da funação remover();
+                printf("Digite a posição para remover");
                 break;
             case 4:
                 //chamada da função contem();
