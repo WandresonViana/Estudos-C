@@ -13,6 +13,8 @@ int main(int argc, char const *argv[])
     agora.horas = 10;
     agora.minutos = 21;
     agora.segundos = 22;
+
+    printf("%i:%i:%i", agora.horas, agora.minutos, agora.segundos);
     
     return 0;
 }
