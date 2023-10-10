@@ -10,6 +10,9 @@ int main(int argc, char const *argv[])
     };
 
     struct horario agora;
+    agora.horas = 10;
+    agora.minutos = 21;
+    agora.segundos = 22;
     
     return 0;
 }
