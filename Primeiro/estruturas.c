@@ -8,6 +8,8 @@ int main(int argc, char const *argv[])
         int minutos;
         int segundos;
     };
+
+    struct horario agora;
     
     return 0;
 }
