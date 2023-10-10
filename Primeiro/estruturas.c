@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
     agora.minutos = 21;
     agora.segundos = 22;
 
-    printf("%i:%i:%i", agora.horas, agora.minutos, agora.segundos);
+    printf("%i:%i:%i \n", agora.horas, agora.minutos, agora.segundos);
     
     return 0;
 }
