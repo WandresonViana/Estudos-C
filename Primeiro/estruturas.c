@@ -18,6 +18,8 @@ int main(int argc, char const *argv[])
 
     struct horario depois;
     depois.horas = agora.horas + 10;
+    depois.minutos = agora.minutos + 12;
+    
     
     return 0;
 }
