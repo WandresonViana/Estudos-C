@@ -6,11 +6,17 @@ int main(int argc, char const *argv[])
     void imprimeMensagem(void);
     float calcularMedia(float x, float y);
 
+    //variaveis
     int valor01, valor02;
 
+    printf("Digite valor\n");
+    scanf("%f", &valor01);
+    printf("Digite o valor\n");
+    scanf("%f", &valor02);
+
     imprimeMensagem();
-    float resultado = calcularMedia(5,2);
-    printf("A media e : %f", resultado);
+    float resultado = calcularMedia(valor01,valor02);
+    printf("A media e : %f \n", resultado);
 
     return 0;
 }
