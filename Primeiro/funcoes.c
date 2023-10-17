@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     float calcularMedia(float x, float y);
 
     //variaveis
-    int valor01, valor02;
+    float valor01, valor02;
 
     printf("Digite valor\n");
     scanf("%f", &valor01);
