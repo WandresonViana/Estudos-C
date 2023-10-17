@@ -13,6 +13,8 @@ int main(int argc, char const *argv[])
     scanf("%f", &valor01);
     printf("Digite o valor\n");
     scanf("%f", &valor02);
+    printf("valor 1 %f\n", valor01);
+    printf("Valor dois %f\n", valor02)
 
     imprimeMensagem();
     float resultado = calcularMedia(valor01,valor02);
