@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
     printf("Valor dois %f\n", valor02);
 
     imprimeMensagem();
-    float resultado = calcularMedia(valor01,valor02);
+    float resultado = calcularMedia(valor01, valor02);
     printf("A media e : %f \n", resultado);
 
     return 0;
