@@ -14,8 +14,9 @@ int main(int argc, char const *argv[])
     scanf("%f", &valor01);
     printf("Digite o valor\n");
     scanf("%f", &valor02);
-    printf("valor 1 %f\n", valor01);
-    printf("Valor dois %f\n", valor02);
+
+    printf("Primeiro valor %f\n", valor01);
+    printf("Segundo valor %f\n", valor02);
 
     
     float resultado = calcularMedia(valor01, valor02);
@@ -37,8 +38,8 @@ float calcularMedia(float x, float y){
 
 void aprovacao(float valor){
     if(valor > 6){
-        printf("Aprovado");
+        printf("Aprovado\n");
     }else{
-        printf("Reprovado");
+        printf("Reprovado\n");
     }
 }
