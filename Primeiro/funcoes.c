@@ -16,11 +16,11 @@ int main(int argc, char const *argv[])
     printf("valor 1 %f\n", valor01);
     printf("Valor dois %f\n", valor02);
 
-    imprimeMensagem();
+    
     float resultado = calcularMedia(valor01, valor02);
     printf("A media e : %f \n", resultado);
     if(resultado > 5){
-        printf("Aprvado");
+        printf("Aprovado\n");
     }
 
     return 0;
