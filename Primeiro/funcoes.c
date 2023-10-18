@@ -19,6 +19,9 @@ int main(int argc, char const *argv[])
     imprimeMensagem();
     float resultado = calcularMedia(valor01, valor02);
     printf("A media e : %f \n", resultado);
+    if(resultado > 5){
+        printf("Aprvado");
+    }
 
     return 0;
 }
