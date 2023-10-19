@@ -37,7 +37,7 @@ float calcularMedia(float x, float y){
 }
 
 void aprovacao(float valor){
-    if(valor > 6){
+    if(valor > 7){
         printf("Aprovado\n");
     }else{
         printf("Reprovado\n");
