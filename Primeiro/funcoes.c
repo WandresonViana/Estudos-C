@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 }
 
 void imprimeMensagem(void){
-    printf("Teste \n");
+    printf("Mensagem \n");
 }
 
 float calcularMedia(float x, float y){
