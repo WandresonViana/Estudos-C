@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-void ordenamCrescente(int vetor[], int n){
+void ordemCrescente(int vetor[], int n){
     int i, j, temporaria;
 
     for(i = 0; i< n; i++){
@@ -23,7 +23,7 @@ void ordenamCrescente(int vetor[], int n){
             if(vetor[i] > vetor[j]){
                 temporaria = vetor[i];
                 vetor[i] = vetor[j];
-                vetor[j] = vetor[i];
+                vetor[j] = temporaria;
 
             }
 
