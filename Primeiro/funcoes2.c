@@ -18,4 +18,11 @@ int main(int argc, char const *argv[])
 void ordenamCrescente(int vetor[], int n){
     int i, j, temporaria;
 
+    for(i = 0; i< n; i++){
+        for(j = i + 1; j < n; ++j){
+            if
+
+        }
+    }
+
 }
