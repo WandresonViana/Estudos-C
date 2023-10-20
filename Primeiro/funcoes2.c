@@ -8,9 +8,14 @@ int main(int argc, char const *argv[])
 
     ordemCrescente(vetor, 10);
 
+    for(i = 0; i< 10 ; i++){
+        printf("%i ", vetor[i]);
+    }
+
     return 0;
 }
 
 void ordenamCrescente(int vetor[], int n){
+    int i, j, temporaria;
 
 }
