@@ -20,7 +20,12 @@ void ordenamCrescente(int vetor[], int n){
 
     for(i = 0; i< n; i++){
         for(j = i + 1; j < n; ++j){
-            if
+            if(vetor[i] > vetor[j]){
+                temporaria = vetor[i];
+                vetor[i] = vetor[j];
+                vetor[j] = vetor[i];
+
+            }
 
         }
     }
